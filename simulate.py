@@ -1,9 +1,4 @@
-"""
-=============================================================================
- Tarım 5.0 — Canlı & Etkileşimli Drone Veri Toplama Simülasyonu
- TEK DOSYA — python canli_simulasyon.py ile çalıştır
-=============================================================================
-"""
+
 
 import numpy as np
 import matplotlib
@@ -14,9 +9,6 @@ from matplotlib.animation import FuncAnimation
 from collections import deque
 import sys, time
 
-# ═══════════════════════════════════════════════════════════════════════
-#  AYARLAR  (değiştirmek istersen burayı düzenle)
-# ═══════════════════════════════════════════════════════════════════════
 ALAN_W, ALAN_H   = 500, 500        # metre
 SENSOR_N          = 30              # sensör sayısı
 SENSOR_ENERJI     = 0.5            # Joule başlangıç
